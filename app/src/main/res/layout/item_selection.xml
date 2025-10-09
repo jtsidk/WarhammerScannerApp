@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/item_selection_background"
+    android:padding="10dp"
+    android:layout_margin="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/nombreItem"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="Nombre del Elemento"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/cloisterblack" />
+
+        <TextView
+            android:id="@+id/puntosItem"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Coste: 0 pts"
+            android:textSize="16sp"
+            android:textColor="#FFD700"
+            android:gravity="end"
+            android:paddingStart="8dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cloisterblack"
+            android:layout_marginRight="4sp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageItem"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:layout_marginTop="8dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stats_table_border"
+        android:layout_marginTop="8dp">
+
+        <TableLayout
+            android:id="@+id/statsTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:visibility="gone"
+            android:padding="2dp">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:background="#8B5A2B">
+                <TextView android:text="M" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:textSize="15sp"/>
+                <TextView android:text="T" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:textSize="15sp"/>
+                <TextView android:text="W" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:textSize="15sp"/>
+                <TextView android:text="LD" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:textSize="15sp"/>
+                <TextView android:text="SV" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:textSize="15sp"/>
+                <TextView android:text="OC" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:background="#D3D3D3">
+                <TextView android:id="@+id/statM" android:minHeight="24dp" android:text="-" android:textSize="14sp" android:textColor="@android:color/black" android:gravity="center"/>
+                <TextView android:id="@+id/statT" android:minHeight="24dp" android:text="-" android:textSize="14sp" android:textColor="@android:color/black" android:gravity="center"/>
+                <TextView android:id="@+id/statW" android:minHeight="24dp" android:text="-" android:textSize="14sp" android:textColor="@android:color/black" android:gravity="center"/>
+                <TextView android:id="@+id/statLD" android:minHeight="24dp" android:text="-" android:textSize="14sp" android:textColor="@android:color/black" android:gravity="center"/>
+                <TextView android:id="@+id/statSV" android:minHeight="24dp" android:text="-" android:textSize="14sp" android:textColor="@android:color/black" android:gravity="center"/>
+                <TextView android:id="@+id/statOC" android:minHeight="24dp" android:text="-" android:textSize="14sp" android:textColor="@android:color/black" android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/descripcionItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción detallada"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- O tu tema base -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="introType" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#2B1B0E</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:fontFamily">@font/cloisterblack</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="introTypeGold" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#DAA520</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:fontFamily">@font/cloisterblack</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="largeImportantText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:fontFamily">@font/cloisterblack</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="largeImportantTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:fontFamily">@font/cloisterblack</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="mediumImportantText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:fontFamily">@font/cloisterblack</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="editTextSesion" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_sesion</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#AAAAAA</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>

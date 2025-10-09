@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Warhammer 40K Scanner</string>
+    <string name="bienvenida">El campo de batalla te espera. Inicia sesión y lidera a tus tropas hacia la gloria.</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="username">Nombre usuario:</string>
+    <string name="password">Password:</string>
+    <string name="email">Email:</string>
+    <string name="fragmentsTitle">ESCANEA TU MINIATURA!</string>
+    <string name="ok">OK</string>
+    <string name="error_dialog_title">Vuforia error</string>
+    <string name="subfactions_lore">Subfacciones</string>
+</resources>

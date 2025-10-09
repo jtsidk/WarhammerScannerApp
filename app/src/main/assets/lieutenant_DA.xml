@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="lieutenant_DA" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="lieutenant_DAs_assembly" assemblyId="204169be4984473eac2988fd5f35bfce">
+<Part name="lieutenant_DA" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-7.45058e-09 0.0237438 0.0777303" rotation="AD: 0.928873 -0.400321 2.49371 186.343" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="5.58794e-09 0.0231592 0.0793209" rotation="AD: -0.953983 -0.346899 1.77435 169.574" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0002" translation="-9.31323e-09 0.0239263 0.0771532" rotation="AD: 0.999928 -0.0433089 0.292357 196.171" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0003" translation="-1.86265e-09 0.0242194 0.0761038" rotation="AD: 0.998672 0.0895399 -0.710999 191.684" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0004" translation="-9.31323e-10 0.00827101 0.0934975" rotation="AD: -0.759765 -0.922932 1.30157 146.092" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0005" translation="5.58794e-09 0.0191063 0.0860283" rotation="AD: 0.997162 -0.180569 0.493969 215.835" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
