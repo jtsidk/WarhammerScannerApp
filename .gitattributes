@@ -1,0 +1,19 @@
+# === Forzar detección de lenguajes ===
+*.kt linguist-detectable=true
+*.cpp linguist-detectable=true
+*.c linguist-detectable=true
+*.h linguist-detectable=true
+*.xml linguist-detectable=true
+*.gradle linguist-detectable=true
+Dockerfile linguist-detectable=true
+*.sh linguist-detectable=true
+
+# === Ignorar carpetas de build o generadas ===
+build/* linguist-vendored
+app/build/* linguist-vendored
+**/generated/* linguist-vendored
+**/intermediates/* linguist-vendored
+.cxx/* linguist-vendored
+.externalNativeBuild/* linguist-vendored
+.gradle/* linguist-vendored
+.idea/* linguist-vendored
